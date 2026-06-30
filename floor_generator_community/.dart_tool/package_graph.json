@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "floor_generator_community",
-      "version": "1.0.0-community.1",
+      "version": "1.0.0",
       "dependencies": [
         "analyzer",
         "build",
@@ -153,7 +153,7 @@
     },
     {
       "name": "floor_community",
-      "version": "1.0.0-community.1",
+      "version": "1.0.0",
       "dependencies": [
         "collection",
         "flutter",

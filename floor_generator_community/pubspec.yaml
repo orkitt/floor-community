@@ -2,7 +2,7 @@ name: floor_generator_community
 description: >
   The typesafe, reactive, and lightweight SQLite abstraction for your Flutter
   applications. This library is the dev dependency.
-version: 1.0.0-community.1
+version: 1.0.0
 homepage: https://github.com/orkitt/floor-community
 repository: https://github.com/orkitt/floor-community
 issue_tracker: https://github.com/orkitt/floor-community/issues

@@ -189,7 +189,7 @@
     },
     {
       "name": "floor_community",
-      "rootUri": "../../floor_community",
+      "rootUri": "file:///Users/arrahman/.pub-cache/hosted/pub.dev/floor_community-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.6"
     },
