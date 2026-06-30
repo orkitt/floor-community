@@ -6,7 +6,7 @@ version: 1.0.0-community.1
 homepage: https://github.com/orkitt/floor-community
 repository: https://github.com/orkitt/floor-community
 issue_tracker: https://github.com/orkitt/floor-community/issues
-publish_to: none
+# publish_to: none
 
 environment:
   sdk: ">=3.6.0 <4.0.0"
@@ -17,8 +17,8 @@ dependencies:
   build_config: ^1.2.0
   code_builder: ^4.10.1
   collection: ^1.19.1
-  floor_community:
-    path: ../floor_community/
+  floor_community: 1.0.0
+   # path: ../floor_community/
   meta: ^1.18.0
   source_gen: ^3.1.0
   strings: ^4.0.0

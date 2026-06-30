@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "floor_community",
-      "version": "1.0.0-community.1",
+      "version": "1.0.0",
       "dependencies": [
         "collection",
         "flutter",
@@ -19,7 +19,6 @@
       ],
       "devDependencies": [
         "build_runner",
-        "floor_generator_community",
         "flutter_test",
         "matcher",
         "mockito"
@@ -68,21 +67,6 @@
         "stream_channel",
         "test_api",
         "vector_math"
-      ]
-    },
-    {
-      "name": "floor_generator_community",
-      "version": "1.0.0-community.1",
-      "dependencies": [
-        "analyzer",
-        "build",
-        "build_config",
-        "code_builder",
-        "collection",
-        "floor_community",
-        "meta",
-        "source_gen",
-        "strings"
       ]
     },
     {
@@ -350,24 +334,6 @@
       ]
     },
     {
-      "name": "strings",
-      "version": "4.0.1",
-      "dependencies": [
-        "characters",
-        "unicode"
-      ]
-    },
-    {
-      "name": "build_config",
-      "version": "1.2.0",
-      "dependencies": [
-        "checked_yaml",
-        "json_annotation",
-        "path",
-        "pubspec_parse"
-      ]
-    },
-    {
       "name": "yaml",
       "version": "3.1.3",
       "dependencies": [
@@ -536,6 +502,16 @@
         "stream_transform",
         "watcher",
         "web_socket_channel"
+      ]
+    },
+    {
+      "name": "build_config",
+      "version": "1.2.0",
+      "dependencies": [
+        "checked_yaml",
+        "json_annotation",
+        "path",
+        "pubspec_parse"
       ]
     },
     {
@@ -738,41 +714,6 @@
       ]
     },
     {
-      "name": "unicode",
-      "version": "1.1.9",
-      "dependencies": [
-        "archive",
-        "simple_sparse_list"
-      ]
-    },
-    {
-      "name": "pubspec_parse",
-      "version": "1.5.0",
-      "dependencies": [
-        "checked_yaml",
-        "collection",
-        "json_annotation",
-        "pub_semver",
-        "yaml"
-      ]
-    },
-    {
-      "name": "json_annotation",
-      "version": "4.12.0",
-      "dependencies": [
-        "meta"
-      ]
-    },
-    {
-      "name": "checked_yaml",
-      "version": "2.0.4",
-      "dependencies": [
-        "json_annotation",
-        "source_span",
-        "yaml"
-      ]
-    },
-    {
       "name": "web_socket",
       "version": "1.0.1",
       "dependencies": [
@@ -820,6 +761,13 @@
       ]
     },
     {
+      "name": "json_annotation",
+      "version": "4.12.0",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
       "name": "build_resolvers",
       "version": "3.0.3",
       "dependencies": [
@@ -832,6 +780,26 @@
         "path",
         "pool",
         "pub_semver"
+      ]
+    },
+    {
+      "name": "pubspec_parse",
+      "version": "1.5.0",
+      "dependencies": [
+        "checked_yaml",
+        "collection",
+        "json_annotation",
+        "pub_semver",
+        "yaml"
+      ]
+    },
+    {
+      "name": "checked_yaml",
+      "version": "2.0.4",
+      "dependencies": [
+        "json_annotation",
+        "source_span",
+        "yaml"
       ]
     },
     {
@@ -895,34 +863,12 @@
       "dependencies": []
     },
     {
-      "name": "simple_sparse_list",
-      "version": "0.1.4",
-      "dependencies": []
-    },
-    {
-      "name": "archive",
-      "version": "4.0.9",
-      "dependencies": [
-        "path",
-        "posix"
-      ]
-    },
-    {
       "name": "record_use",
       "version": "0.6.0",
       "dependencies": [
         "collection",
         "meta",
         "pub_semver"
-      ]
-    },
-    {
-      "name": "posix",
-      "version": "6.5.0",
-      "dependencies": [
-        "ffi",
-        "meta",
-        "path"
       ]
     }
   ],

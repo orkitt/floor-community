@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0-community.1
+## 1.0.0
 
 > 🎉 First community-maintained release.
 
