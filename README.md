@@ -1,4 +1,4 @@
-![Floor](https://raw.githubusercontent.com/orkitt/floor-community/img/floor.png)
+![Floor Community](https://raw.githubusercontent.com/orkitt/floor-community/master/img/floor.png)
 
 
 > **See the [project's website](https://github.com/orkitt/floor-community) for the full documentation.**
