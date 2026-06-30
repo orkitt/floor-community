@@ -1,7 +1,6 @@
-![Floor](https://raw.githubusercontent.com/orkitt/floor-community/img/floor.png)
+![Floor Community Edition](https://raw.githubusercontent.com/orkitt/floor-community/floor_community/img/floor.png)
 
-
-> **See the [project's website](https://github.com/orkitt/floor-community) for the full documentation.**
+**See the [project's website](https://github.com/orkitt/floor-community) for the full documentation.**
 
 Floor provides a neat SQLite abstraction for your Flutter applications inspired by the [Room persistence library](https://developer.android.com/topic/libraries/architecture/room).
 It comes with automatic mapping between in-memory objects and database rows while still offering full control of the database with the use of SQL.
@@ -21,7 +20,7 @@ Refer to [GitHub Discussions](https://github.com/orkitt/floor-community/discussi
 
 [![pub package](https://img.shields.io/pub/v/floor.svg)](https://pub.dartlang.org/packages/floor)
 [![build status](https://github.com/orkitt/floor-community/workflows/CI/badge.svg)](https://github.com/orkitt/floor-community/actions)
-[![codecov](https://codecov.io/gh/orkitt/floor-community/branch/develop/graph/badge.svg)](https://codecov.io/gh/pinchbv/floor)
+[![codecov](https://codecov.io/gh/pinchbv/floor/branch/develop/graph/badge.svg)](https://codecov.io/gh/pinchbv/floor)
 
 ## Getting Started
 
@@ -30,8 +29,8 @@ Refer to [GitHub Discussions](https://github.com/orkitt/floor-community/discussi
 Add the runtime dependency `floor` as well as the generator `floor_generator` to your `pubspec.yaml`.
 The third dependency is `build_runner` which has to be included as a dev dependency just like the generator.
 
-- `floor` holds all the code you are going to use in your application.
-- `floor_generator` includes the code for generating the database classes.
+- `floor_community` holds all the code you are going to use in your application.
+- `floor_generator_community` includes the code for generating the database classes.
 - `build_runner` enables a concrete way of generating source code files.
 
 ```yaml
