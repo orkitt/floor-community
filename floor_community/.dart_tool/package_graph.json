@@ -12,6 +12,7 @@
         "meta",
         "path",
         "sqflite",
+        "sqflite_common",
         "sqflite_common_ffi",
         "sqflite_common_ffi_web",
         "sqlparser"
@@ -71,7 +72,7 @@
     },
     {
       "name": "floor_generator_community",
-      "version": "1.4.2",
+      "version": "1.0.0-community.1",
       "dependencies": [
         "analyzer",
         "build",
@@ -153,6 +154,15 @@
         "path",
         "sqflite_common",
         "sqlite3",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_common",
+      "version": "2.5.11",
+      "dependencies": [
+        "meta",
+        "path",
         "synchronized"
       ]
     },
@@ -610,15 +620,6 @@
         "path",
         "typed_data",
         "web"
-      ]
-    },
-    {
-      "name": "sqflite_common",
-      "version": "2.5.11",
-      "dependencies": [
-        "meta",
-        "path",
-        "synchronized"
       ]
     },
     {

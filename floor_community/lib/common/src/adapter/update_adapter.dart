@@ -1,9 +1,10 @@
 import 'dart:async';
 
+import 'package:sqflite_common/sqlite_api.dart';
+
 import '../../../annotation/src/on_conflict_strategy.dart';
 import '../extension/on_conflict_strategy_extensions.dart';
 import '../util/primary_key_helper.dart';
-import 'package:sqflite_common/sqlite_api.dart';
 
 class UpdateAdapter<T> {
   final DatabaseExecutor _database;

@@ -11,10 +11,13 @@ extension TypeConverterElementExtension on Element2 {
   /// Returns a set of [TypeConverter]s found in the @TypeConverters
   /// annotation on this element
   Set<TypeConverter> getTypeConverters(final TypeConverterScope scope) {
+    // ignore: experimental_member_use
     if (hasAnnotation(annotations.TypeConverters)) {
+      // ignore: experimental_member_use
       final typeConverterElements = getAnnotation(annotations.TypeConverters)
           ?.getField(AnnotationField.typeConverterValue)
           ?.toListValue()
+          // ignore: experimental_member_use
           ?.mapNotNull((object) => object.toTypeValue()?.element3);
 
       if (typeConverterElements == null || typeConverterElements.isEmpty) {

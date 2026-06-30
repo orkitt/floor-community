@@ -239,7 +239,7 @@ packages:
       path: "../floor_generator_community"
       relative: true
     source: path
-    version: "1.4.2"
+    version: "1.0.0-community.1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -544,7 +544,7 @@ packages:
     source: hosted
     version: "2.4.3"
   sqflite_common:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: sqflite_common
       sha256: "5bf6a55c166e73bf651ba7ec3ed486e577620e3dc8f3a9c6a258a8031b624590"

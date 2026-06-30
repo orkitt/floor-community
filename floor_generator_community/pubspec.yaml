@@ -19,7 +19,7 @@ dependencies:
   collection: ^1.19.1
   floor_community:
     path: ../floor_community/
-  meta:
+  meta: ^1.18.0
   source_gen: ^3.1.0
   strings: ^4.0.0
 
